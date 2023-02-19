@@ -1,0 +1,698 @@
+body {
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+}
+
+.logo  {
+    margin: 0.33em;
+    width: 100%;
+}
+
+.logo p {
+    font-size: 32px;
+}
+
+.logo .robot  {
+    font-family: 'Damion', cursive;
+    color:rgb(197, 17, 11); 
+    position: absolute;
+}
+
+.logo .juice {
+    font-family: 'Damion', cursive;
+    color:rgb(0, 0, 0);   
+    position: absolute;
+    margin-left: 76px;
+}
+
+.logo p:last-of-type {
+    font-size: 11px;
+    margin: 35px 0px 0px 34px;
+    position: absolute;
+    text-align: right;
+}
+
+.topnav {
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
+
+.topnav a {
+    text-decoration: none;
+    padding: 0px 5px 2px 0px;
+    color: black;
+    border-right: solid 2px black;
+}
+
+.topnav a:last-child {
+    border: none;
+}
+
+.topnav a:hover, .topnav a:active {
+    background-color: rgb(197, 17, 11);
+    color: white; 
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0.3em 0px 0px rgb(126, 126, 126);
+}
+
+.tagline {
+    font-family: 'Iceberg', cursive;
+    color:rgb(87, 88, 89);
+    border-bottom: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    box-shadow: 0px 1px 0px 0px rgb(126, 126, 126);
+}
+
+.tagline p {
+    color: rgb(7, 88, 89);
+    font-size: 30px;
+    margin: 30px;
+}
+
+.tiles {
+    margin-top: 10px;
+}
+
+.newsandpoll {
+    border-top: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    box-shadow: 0px 1px 0px 0px rgb(126, 126, 126);
+}
+
+p {
+    
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    max-width: 370px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: -5px;
+    font-family: 'Iceberg', cursive;
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
+}
+
+h2 {
+    font-family: 'Iceberg', cursive;
+    font-size: 30px;
+    padding: 10px;
+    color: black !important;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(126, 126, 126);
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 40px;
+    color:rgb(197, 17, 11);
+    margin-bottom: 10px;
+}
+
+.tiles article {
+    height: 100%; 
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.tiles article:last-child {
+    border: none;
+}
+
+.tiles img {
+    box-shadow: 3px 3px 10px 0px; 
+}
+
+.tiles {
+    margin-top: 33px;
+}
+
+.news p:last-child {
+    color: rgb(197, 17, 11);
+    font-size: 20px;
+    text-align: right;
+}
+
+.news p {
+    text-align: center;
+}
+
+.news h2 {
+    color: rgb(126, 126, 126);
+    margin-left: -5px;
+}
+
+.news {
+    text-align: left;
+}
+
+.poll {
+    background-color: white;
+    margin: 0px;
+}
+
+.poll p:first-of-type {
+    color: rgb(197, 17, 11);
+}
+
+.poll .answers p {
+    margin: -5px;
+    text-align: left;
+    color: black;
+}
+
+.poll .answers {
+    margin: 30px;
+}
+
+.poll #yes {
+    margin: 20px;
+}
+
+.poll #no {
+    margin: 25px;
+}
+
+.footer {
+    background-color: white;
+    margin-bottom: 10px;
+    width: fill;
+    border-top: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    box-shadow: 0px 1px 0px 0px rgb(126, 126, 126);
+}
+
+.footer p, .footer a {
+    color:rgb(197, 17, 11);
+    font-size: 20px;
+}
+
+.footer .footerImg {
+    margin-top: 20px;
+}
+
+.realfooter {
+    background-color: rgb(197, 17, 11);
+    padding: 0px 0px 10px 0px;
+    margin-top: -10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.realfooter p:first-child {
+    text-align: left;
+}
+
+.realfooter p, .realfooter a  {
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 19px;
+}
+
+.realfooter .subnav a {
+    text-decoration: none;
+    border-left: solid black 3px;
+    padding: 0px 5px 0px 10px;
+    float: bottom;
+    bottom: 0px;
+}
+
+.realfooter .subnav a:first-child {
+    border: none;
+}
+
+
+                /* MEDIA QUERY */
+
+
+@media (min-width:801px) {
+   
+    h2 {
+       padding: 0px;
+    }
+
+    .logo .robot {
+        font-size: 100px;
+    }
+
+    .logo .juice {
+        font-size: 100px;
+        margin-left: 240px;
+    }
+
+    .logo p:last-of-type {
+        font-size: 20px;
+        margin: 105px 0px 0px 250px;
+    }
+
+    header {
+        text-align: left;
+    }
+
+    .topnav {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        margin-top: 185px;
+    }
+
+    .topnav a {
+        display: inline-block;
+        width: 16.4%;
+        text-align: center;
+        padding: 30px 0px 30px 0px !important;
+        vertical-align:top;
+        position: relative;
+        margin-left: -6px;
+        border-right: none;
+    }
+
+    .topnav a::after {
+        content: '';
+        height: 60%; 
+        width: 1px;
+        position: absolute;
+        right: 0;
+        top: 15px;
+        background-color: #000000;  
+    }
+
+    .topnav a:last-child::after {
+        content: '';
+        height: 0%; 
+        width: 1px;
+        position: absolute;
+        right: 0;
+        top: 15px;
+        background-color: #000000;  
+    }
+
+    .topnav a:hover {
+        padding-top: -50px;
+    }
+
+    .tiles article {
+        width: 16%;
+        display: inline-block;
+        margin: 60px 40px 50px 0px;
+        text-align: left;
+    }
+
+    .tiles {
+        margin: 0px -290px 0px -270px;
+    }
+
+    .tiles article img {
+        width: 100%;
+    }
+
+    .tiles article h1 ,  article p {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .tiles article p {
+        font-size: 20px !important;
+        margin-top: -25px;
+    }
+
+    .news article {
+        text-align: left;
+        border: none !important; 
+    }
+
+    .news article p:first-of-type {
+        text-align: left; 
+    }
+
+    .news article p:last-of-type {
+        float: right;
+    }
+
+    .poll {
+        display: inline-block;
+        text-align: left;
+        padding-left: 20px;
+        margin: 40px 0px 60px 0px;
+    }
+
+    .news p {
+        max-width: 100%;
+    }
+
+    .footer .footerImg {
+        margin: 25px 0px 25px -170px;
+    }
+
+    .footer .footerImg img {
+        width: 35%;
+    }
+
+    .footer .latestReview {
+        text-align: left;
+        margin: -10px 0px 0px -20px;
+    }
+
+    .footer .latestReview p {
+        max-width: 75%;
+        margin-top: -8px;
+    }
+
+    .footer .links {
+        text-align: left;
+        margin: -10px 0px 0px 100px;
+    }
+
+    .links a {
+        display: block;
+        margin-bottom: -5px;
+    }
+
+    .realfooter .location {
+        margin: 20px 0px 0px 20%;
+    }
+
+    .realfooter .contact {
+        margin: 0px 0px 100px 20%;
+    }
+
+    .realfooter .subnav {
+        margin: 20px 0px 0px -50px;
+    }
+
+    .realfooter p {
+        max-width: 100%;
+    }
+
+    .tagline p {
+        max-width: 100%;
+    }
+
+    .newsandpoll p {
+        margin-left: 0px;
+    }
+
+    .poll .answers p {
+        margin-left: -20px;
+        color: black;
+    }
+
+
+
+                    /* PRODUCT PAGE */
+
+    
+    .product {
+        text-align: left;
+    }
+
+    .mainImage {
+        margin: 15px 0px 0px 150px;
+    }
+
+    .secondaryimages {
+        max-width: 100px;
+        position: absolute;
+        top: 33%;
+        margin-left: 30px;
+    }
+
+    .secondaryimages img {
+        margin-bottom: 10px;
+    }
+
+   .product .productinfo {
+       margin-left: 130px;
+   }
+
+   .product .productinfo .share {
+       margin: 0px 22px 0px -20px;
+   }
+
+   .product .productinfo .share a {
+       margin-top: -17.9px;
+   }
+
+   .product .productinfo .share p {
+       margin-top: -10px;
+   }
+
+   .product .productInfo h1 {
+       text-align: left;
+   }
+
+   .similarProduct {
+       text-align: left;
+   }
+
+   .similarProduct a img {
+       width: 14.5%;
+       margin: 0px 0px 30px 20px;
+   }
+
+   .reviews article h2 {
+       text-align: left;
+       margin: 0px;
+   }
+
+   .reviews article img {
+       float: left;
+       margin: 2% 0px 0px 10%;
+       width: 9.5% !important;
+   }
+
+   .reviews article p:last-child {
+       position: absolute;
+       font-size: 20px;
+       float: left;
+       margin: -90px 0px 0px 700px !important;
+       max-width: 38%;
+       text-align: left;
+   }
+
+   .reviews article:nth-of-type(5) p:last-child {
+       margin-top: -130px !important;
+   }
+
+   .reviews article:nth-of-type(6) p:last-child {
+    margin-top: -100px !important;
+    }
+
+    .reviews article:nth-of-type(23) p:last-child {
+        margin-top: -50px !important;
+    }
+
+   .reviews button {
+       margin: 30% 10% 20% 370%;
+       width: 200%;
+   }
+
+   .reviews .ratings {
+       margin-top: 3%;
+   }
+
+   .reviews article:nth-of-type(1) .ratings {
+       float: left;
+       margin: -2.5% 0% 0% 230px !important;
+       text-decoration: bold;
+       font-size: 35px;
+   }
+
+   .reviews article:nth-of-type(3) p:last-child, .reviews article:nth-of-type(4) p:last-child, .reviews article:nth-of-type(5) p:last-child {
+        margin-top: -110px !important;
+    }
+
+    .reviews article:nth-of-type(7) p:nth-of-type(2), .reviews article:nth-of-type(9) p:nth-of-type(2), .reviews article:nth-of-type(10) p:nth-of-type(2), .reviews article:nth-of-type(12) p:nth-of-type(2), .reviews article:nth-of-type(16) p:nth-of-type(2), .reviews article:nth-of-type(18) p:nth-of-type(2), .reviews article:nth-of-type(22) p:nth-of-type(2), .reviews article:nth-of-type(23) p:nth-of-type(2) {
+        margin-top: 10px !important;    
+    }
+
+    .reviews article p:nth-of-type(3) {
+        margin-top: -30px;
+    }
+
+   .reviews article p {
+       text-align: left;
+       margin-left: 21%;
+   }
+
+   .reviews article p:nth-of-type(2) {
+       max-width: 20%;
+       text-align: left;
+       margin: -20px 0px 0px 21%;
+   }
+
+   .reviews article p:nth-of-type(3) {
+       margin-top: -115px;
+   }
+}
+
+
+/*              PRODUCT PAGE  BELOW               */
+
+
+button {
+    background-color:rgb(197, 17, 11);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.stockists p {
+    color: grey;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 30px;
+}
+
+.share p {
+    color: grey;
+    font-size: 20px;
+    text-align: right;
+}
+
+.share a {
+    float: right;
+    width: 20px;
+}
+
+.price {
+    color:rgb(197, 17, 11);
+    font-size: 20px;
+}
+
+select {
+    background-color: rgb(211, 208, 208);
+}
+
+.description p {
+    font-size: 20px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.product {
+    margin-top: 33px;
+    border-bottom: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    box-shadow: 0px 1px 0px 0px rgb(126, 126, 126); 
+}
+
+.productinfo h1 {
+   margin-bottom: -10px;
+}
+
+.productinfo form select {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px; 
+}
+
+.productinfo form button {
+    width: 403px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.similarProduct {
+    border-bottom: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    box-shadow: 0px 1px 0px 0px rgb(126, 126, 126);
+}
+
+.reviews article {
+    border-top: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-top: 15px;
+}
+
+.reviews article:nth-of-type(1) {
+    border-top: none;
+}
+
+.reviews article:nth-of-type(6) {
+    border-bottom: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.reviews article img {
+    border-radius: 20%;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews article:nth-of-type(5) img {
+    border-radius: 0%;
+}
+
+.reviews article:nth-of-type(2) img {
+    border-radius: 0%;
+}
+
+.reviews .grease {
+    margin-top: -30px !important;
+}
+
+.reviews  p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.reviews .grease {
+    font-size: 30px;
+}
+
+.loadReviews {
+    margin: 20px;
+    padding: 15px 30px 15px 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.mainImage {
+  width: 90%;
+  height: auto;
+  border: none !important;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 0px 5px #fff;
+}
+
+.images img {
+    border-width: 20px;
+    border: 1px solid rgb(197, 17, 11);
+    margin-right: 10px;
+}
+
+.ratings {
+    color:rgb(197, 17, 11);
+    text-decoration: bold;
+    font-size: 40px !important;
+    padding-top: 0px;
+    
+}
+
+.blackstar {
+    text-decoration: bold;
+    font-size: 40px !important;
+    margin-top: -40px !important;
+}
